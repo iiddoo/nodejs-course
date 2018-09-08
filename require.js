@@ -23,3 +23,41 @@ fs.writeFileSync('user.txt', `Hello ${user.username}!`);
 
 // require you own file
 const hello = require('./hello.js'); 
+
+// require you own module
+// const myModule = require('./require.js');
+
+// example 1
+// usage: myModule('my message');
+module.exports = message => {
+    console.log(`message is: ${message}`);
+};
+
+// example 2
+// usage: myModule.message('my message');
+module.exports.message = message => {
+    console.log(`message is: ${message}`);
+};
+
+// example 3 + example 4 --- predefined functions
+// usage: myModule.setMessage('my message');
+// usage: myModule.printMessage();
+let myMessage;
+const setMessage = message => {
+    myMessage = message;
+};
+const printMessage = () => {
+    console.log(`message is: ${myMessage}`);
+};
+
+// example 3
+module.exports = {
+    setMessage: setMessage,
+    printMessage: printMessage
+};
+
+// example 4
+module.exports = {
+    setMessage,
+    printMessage
+};
