@@ -17,7 +17,7 @@ const myStringObject = '{"name": "my name","age": 120,"smile": true}';
 const myParsedObject = JSON.parse(myStringObject);
 
 // print results
-console.log(typeof myObject);
-console.log(typeof myString);
-console.log(typeof myStringObject);
-console.log(typeof myParsedObject);
+console.log(typeof myObject, myObject);
+console.log(typeof myString, myString);
+console.log(typeof myStringObject, myStringObject);
+console.log(typeof myParsedObject, myParsedObject);
