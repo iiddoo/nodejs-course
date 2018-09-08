@@ -4,7 +4,9 @@
 ## Contet menu
 
 * require.js
-    * Require node builtin modules, 3rd parties, files or your own modules  
+    * Require node builtin modules, 3rd parties, files or your own modules 
+* hello.js
+    * An example file to require
 * json.js
     * Use JSON objects, parse them from string and convert them to string
 
