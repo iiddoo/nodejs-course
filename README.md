@@ -20,7 +20,7 @@
 
 You can explore each example separately by execute the desired file.
 
-For exapmle: Open console on current directory, and run: `node functions.js`
+For exapmle, open console on current directory, and run: `node functions.js`
 
 
 ## Contributing
