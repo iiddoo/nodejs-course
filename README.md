@@ -13,6 +13,13 @@
     * Examples functions to be tested
 * test/utils.test.js
     * Tests examples including mocha, chai, async tests, describe and more 
+* debugging.js
+    * Examples and debug tools with node.js inspect, chrome and VSCode
+
+## Usage
+
+You can explore each example separately by execute the desired file.
+For exapmle: Open console on current directory, and run: `node functions.js`
 
 
 ## Contributing

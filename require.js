@@ -1,16 +1,22 @@
 // examples for requiring files and modoules
 
+// nodemon
+/********/
 // install nodemon to escape manual restarting node process
 // we install this as global for reuse on you machine
-// run console --- >npm install -g nodemon
-// then run --- >nodemon [myFile].js
+// run console 'npm install -g nodemon'
+// then 'nodemon require.js'
 
+// 3rd praty library
+/******************/
 // install lodash for your project as dependancy
-// run --- >npm install --save lodash
+// run 'npm install --save lodash' or 'npm i -S lodash'
 // const lodash = require('lodash');
 
+// lint
+/******/
 // instal eslint for your project as *development* dependancy
-// run --- >npm install eslint --save-dev
+// run 'npm install eslint --save-dev' or 'npm i eslint -D'
 
 // use node builtin module for operating system - os:
 const os = require('os');
