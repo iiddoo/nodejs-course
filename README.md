@@ -9,6 +9,10 @@
     * An example file to require
 * json.js
     * Use JSON objects, parse them from string and convert them to string
+* utils.js
+    * Examples functions to be tested
+* test/utils.test.js
+    * Tests examples including mocha, chai, async tests, describe and more 
 
 
 ## Contributing

@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "Node.JS course code examples",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiddoo/noedjs-course.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "course",
+    "examples",
+    "code"
+  ],
+  "author": "“Ido <“iiddoolleevv@gmail.com”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iiddoo/noedjs-course/issues"
+  },
+  "homepage": "https://github.com/iiddoo/noedjs-course#readme"
+}
