@@ -2,8 +2,10 @@
 
 const utils = require('../utils');
 
+// mocha
+/*******/
 // first, install mocha: 'npm i mocha -D' or 'npm install moach --save-dev'
-// then, run it: "npm test"
+// then, run it: 'npm test'
 
 // to run with nodemon - just type: 'nodemon --exec \"npm test\"'
 // or add as script to package.json and run: 'npm run test-watch'
@@ -24,7 +26,9 @@ it('Should square number', () => {
     }
 });
 
-// using chai: 'npm i chai -D'
+// chai
+/******/
+// install chai: 'npm i chai -D' or 'npm install chai --save-dev'
 const { expect } = require('chai');
 
 // example 3 - using chai with expect
