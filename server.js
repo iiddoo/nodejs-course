@@ -11,9 +11,9 @@ app.use((req, res, next) => {
 });
 
 // maintenance middleware
-app.use((req, res, next) => {
+/* app.use((req, res, next) => {
     res.send('<h2>In your service<h2>');
-});
+}); */
 
 // return text/html
 app.get('/', (req, res) => {
@@ -30,3 +30,6 @@ app.get('/user', (req, res) => {
 
 
 app.listen(3000);
+
+// for testing
+module.exports.app = app;
