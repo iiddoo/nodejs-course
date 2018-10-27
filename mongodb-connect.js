@@ -23,7 +23,7 @@ mongoose.connection.on('close', () => {
 });
 
 mongoose.connection.on('error', error => {
-  console.log(`ERROR: ${error}`);
+  console.error(`ERROR: ${error}`);
 });
 
 const connect = async () => {
